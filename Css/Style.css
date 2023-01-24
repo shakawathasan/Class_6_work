@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightblue;
+}
+nav{
+    background-color: bisque;
+    border-radius: 20px;
+}
+li{
+    display: inline-block;
+    font-size: large;
+    padding: 10px;
+    margin: 0px 40px;
+}
+a{
+    display:inline-block;
+    padding: 10px;
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    color:blueviolet
+}
